@@ -1,0 +1,159 @@
+/* Sheet */
+:root{
+  /* Colors */
+  --white: #FEFEFE;
+  --light-gray: #F4F4F4;
+  --gray: #A8A8A8;
+  --dark-gray: #9C9C9C;
+  --black: #050505;
+  --strong-blue: #026EC7;
+  --dark-blue: #01437A;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
+/* Fonts */
+h1{
+  font-size: 2.8rem;
+}
+h2{
+  font-size: 2.4rem;
+}
+h3{
+  font-size: 1.8rem;
+}
+h4{
+  font-size: 1.6rem;
+}
+h1, h2, h3, h4{
+  font-family: 'Cabin', sans-serif;
+}
+p{
+  font-size: 1.4rem;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8rem;
+}
+/* Header */
+.header {
+  width: 100%;
+  min-height: 6.5rem;
+  top: 0;
+  position: fixed;
+  background: url(https://www.pngmart.com/files/9/Text-Banner-PNG-Transparent-Image.png) no-repeat center;
+  background-size: cover;
+}
+.header{
+  background-color: var(--white);
+}
+/* Main */
+  /* Cards */
+  .product-cards__container{
+    padding-top: 65px;
+  }
+  .product-detail__card{
+    margin: 15px auto;
+    padding: 15px;
+    width: 90%;
+    height: auto;
+    min-width: 288px;
+    max-width: 400px;
+    background-color: var(--strong-blue);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+  }
+.product__card-title{
+  margin-bottom: 15px;
+}
+.product__card-title>a{
+  text-decoration: none;
+  color: var(--white);
+}
+.product__card-title>a:hover{
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px var(--dark-gray);
+  color: var(--white);
+}
+.product__card-body{
+  color: var(--white);
+}
+.product__card-body+a{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: var(--white);
+}
+.product__card-body+a:hover{
+  text-decoration: underline;
+  text-shadow: 1px 1px 2px var(--dark-gray);
+  color: var(--dark);
+}
+  /* Info */
+  .info-container{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: var(--light-gray);
+  }
+  .info-container__item{
+    margin: 2rem;
+  }
+  .info-container__item>h3{
+    margin-bottom: 0.8rem;
+  }
+  #perfiles{
+    margin-left: 2rem;
+  }
+  .profiles-cards{
+    padding: 2rem;
+  }
+  .profile-cards__container{
+    margin: 0 2rem;
+  }
+  .profile-cards__container>figure{
+    display: grid;
+    justify-content: center;
+  }
+  .profile-cards__container>figure>img{
+    margin-bottom: 0.8rem;
+    width: 288px;
+    height: 230px;
+  }
+  .profile-cards__container>figure>figcaption{
+    margin-bottom: 0.6rem;
+    text-align: center;
+  }
+
+  /* Input */
+  .message-container{
+    margin: auto 0.5rem;
+  }
+  #inputGroup-sizing-default, #form-control, #input-group-text, #inputGroupSelect01, #floatingTextarea2{
+    font-size: 1.2rem;
+  }
+  .form-control{
+    resize: none;
+  }
+  .btn-primary{
+    margin-top: 1rem;
+  }
+/* Footer */
+footer{
+  padding: 0.5rem;
+  background-color: var(--gray);
+}
+.footer-list{
+  margin: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list>ul{
+  display: flex;
+  justify-content: center;
+}
+.footer-list__media{
+  margin-left: 1.5rem;
+  list-style: none;
+}

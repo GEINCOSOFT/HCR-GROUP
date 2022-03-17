@@ -1,0 +1,19 @@
+/* Sheet */
+:root{
+  /* Colors */
+  --white: #FEFEFE;
+  --light-gray: #F4F4F4;
+  --gray: #A8A8A8;
+  --dark-gray: #9C9C9C;
+  --black: #050505;
+  --strong-blue: #026EC7;
+  --dark-blue: #01437A;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+}
